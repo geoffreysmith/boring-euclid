@@ -1,2 +1,2 @@
-# boring_euclid
-🚢 Containers for Windows
+# boring-euclid
+🚢 Container Install Scripts for Windows
