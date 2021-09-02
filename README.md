@@ -1,7 +1,7 @@
 <br />
 <p align="center">
 <a href="https://github.com/geoffreysmith/boring-euclid">
-    <img src="assets/logo.png" alt="boring-euclid logo" width="150" height="150">
+    <img src="assets/logo.png" alt="boring-euclid logo" height="120">
 </a>
     <h3 align="center">boring-euclid</h3>
   <p align="center">
