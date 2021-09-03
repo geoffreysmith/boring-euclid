@@ -8,3 +8,19 @@
     🚢 Container Install Scripts for Windows
   </p>
 </p>
+
+## Setup Hyper-V & WSL2
+
+The following should be part of the base Windows image, run separately as administrator otherwise.
+
+* `dism.exe /Online /Enable-Feature /All /FeatureName:Microsoft-Hyper-V`
+* Restart
+* `dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart`
+* `dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart`
+* `Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform -NoRestart`
+* Restart
+* `wsl --set-default-version 2`
+
+## Setup & Run
+
+* `./install.ps1`
