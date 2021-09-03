@@ -59,7 +59,7 @@ Function Write-HostLog
     Write-Log $Message
 }
 
-$chocolateyAppList = "microsoft-windows-terminal,7zip,vscode,ssms,sqllocaldb"
+$chocolateyAppList = "microsoft-windows-terminal,7zip,vscode,ssms,sqllocaldb,sshfs,openssh"
 $dismAppList = "IIS-ASPNET45,IIS-CertProvider,IIS-ManagementService"
 
 if ([string]::IsNullOrWhiteSpace($chocolateyAppList) -eq $false -or [string]::IsNullOrWhiteSpace($dismAppList) -eq $false)

@@ -24,3 +24,11 @@ The following should be part of the base Windows image, run separately as admini
 ## Setup & Run
 
 * `./install.ps1`
+
+## SSHFS Manager
+
+* [sshfs-win-manager](https://github.com/evsar3/sshfs-win-manager/releases/tag/v1.3.0-beta.1)
+
+## Generate and copy SSH key
+* `ssh-keygen -t rsa -b 4096 -f ./id_rsa_shared`
+* `ssh-copy-id -i ./id_rsa_shared remoteuser@remotehost`
