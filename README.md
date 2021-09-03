@@ -17,6 +17,7 @@ As of Sept-02-2021:
 * nerdctl/containerd: https://github.com/containerd/nerdctl/pull/197
 * k3s: https://github.com/k3s-io/k3s/issues/114
 * podman: https://github.com/containers/podman/issues/8136
+* Windows Containers on Windows 10: https://www.jamessturtevant.com/posts/Windows-Containers-on-Windows-10-without-Docker-using-Containerd/
 
 ## Setup Hyper-V & WSL2
 
