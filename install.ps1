@@ -77,7 +77,7 @@ if ([string]::IsNullOrWhiteSpace($chocolateyAppList) -eq $false){
     foreach ($app in $appsToInstall)
     {
         Write-HosLog  "Installing $app"
-        & choco install $app /y  --no-progress | Write-Output
+        & choco install $app /y /no-progress | Write-Output
     }
 }
 
