@@ -36,9 +36,6 @@
     	https://github.com/geoffreysmith/boring-euclid#>
 #>
 
-# Support -Verbose option
-[CmdletBinding()]
-
 Function Write-Log
 {
     $Message = $args[0]
@@ -80,7 +77,7 @@ if ([string]::IsNullOrWhiteSpace($chocolateyAppList) -eq $false){
     foreach ($app in $appsToInstall)
     {
         Write-HosLog  "Installing $app"
-        & choco install $app /y | Write-Output
+        & choco install $app /y  --no-progress | Write-Output
     }
 }
 
